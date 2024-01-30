@@ -13,17 +13,17 @@ variable "channel" {
 variable "db_application_name" {
   description = "The name of the application providing the `database` endpoint."
   type        = string
-  default     = "mongodb-k8s"
+  default     = ""
 }
 
 variable "certs_application_name" {
   description = "Name of the application providing the `certificates` integration endpoint."
-  type = string
-  default = "self-signed-certificates"
+  type        = string
+  default     = ""
 }
 
 variable "nrf_application_name" {
   description = "The name of the application providing the `fiveg_nrf` endpoint."
   type        = string
-  default     = "nrf"
+  default     = ""
 }
