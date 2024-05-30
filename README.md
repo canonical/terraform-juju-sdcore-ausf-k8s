@@ -15,7 +15,7 @@ The following software and tools needs to be installed and should be running in 
 Install Microk8s and enable storage add-on:
 
 ```console
-sudo snap install microk8s --channel=1.27-strict/stable
+sudo snap install microk8s --channel=1.29-strict/stable
 sudo usermod -a -G snap_microk8s $USER
 newgrp snap_microk8s
 sudo microk8s enable hostpath-storage
@@ -24,7 +24,7 @@ sudo microk8s enable hostpath-storage
 Install Juju:
 
 ```console
-sudo snap install juju --channel=3.1/stable
+sudo snap install juju --channel=3.4/stable
 ```
 
 Install Terraform:
